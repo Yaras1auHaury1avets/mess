@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Стрельба испанками по системе Геральда</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <main>
+            <h1>СТРЕЛЬБА ИСПАНКАМИ ПО СИСТЕМЕ ГЕРАЛЬДА</h1>
+            <br>
+            <label for="#distance">Расстояние: <input type="text" id="distance" name="distance"> м.</label>
+            <label for="#fire">Порох: <input type="text" id="fire" name="fire"> заряд</label>
+            <label for="#sight">Прицел:  <span id="sight"><strong>-</strong></span></label>
+            <label for="#delta">Дельта:  <span id="delta"><strong>-</strong></span> метров в 1 делении прицела</label>
+            <button id="button">Рассчитать</button>
+            <button id="reset">Сброс</button>
+            <br>
+            <p>Поле "Порох" заполнять, только если нужно стрелять на определенном порохе. В общем случае программа сама напишет нужный заряд.</p>
+        </main>
+        <footer>
+            *Любые предъявы по поводу неточности стрельбы направлять Геральду, это его косяк
+        </footer>
+
+    </body>
+    <script src="script.js"></script>
+</html>
