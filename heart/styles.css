@@ -1,0 +1,46 @@
+html {
+    background-color:rgb(125, 201, 201) ;
+}
+
+#container {
+    width: 80%;
+    height: 95vh;
+    margin: auto;
+    position: relative;
+}
+
+#heart {
+    width: 0;
+    height: 0;
+    border-top: 190px solid red;
+    border-bottom: 70px solid transparent;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-top-left-radius: 137px;
+    border-top-right-radius: 137px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    z-index: 1;
+}
+
+#half1 {
+    width: 118px;
+    height: 135px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 26%;
+    left: 35.3%;
+}
+
+#half2 {
+    width: 118px;
+    height: 135px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 26%;
+    left: 46.7%;
+}
+
